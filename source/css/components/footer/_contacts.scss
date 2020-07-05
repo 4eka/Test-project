@@ -1,0 +1,42 @@
+
+.contacts-info {
+  margin-bottom: 30px;
+
+  &--title {
+    font-family: $font-medium;
+    font-size: 22px;
+    line-height: 1;
+  }
+
+  &--phone a {
+    font-family: $font-medium;
+    color: $color-desc-gray;
+    font-size: 24px;
+
+    @media (min-width: $grid-sm) {
+      line-height: 48px;
+      font-size: 36px;
+    }
+
+    &:hover {
+      color: $color-link;
+    }
+  }
+
+  &--support {
+    display: flex;
+    align-items: center;
+
+    .links-divider {
+      margin: 0 20px;
+    }
+  }
+}
+
+.connection-icons {
+  svg {
+    height: 15px;
+    width: 15px;
+    margin-right: 10px;
+  }
+}

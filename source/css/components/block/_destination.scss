@@ -1,0 +1,26 @@
+.block {
+    &-top-destination {
+        margin-bottom: 80px;
+        
+        .item {
+            margin-right: 1rem;
+            width: 140px;
+
+            // position: relative;
+            // display: flex;
+            // min-width: 0;
+            // word-wrap: break-word;
+
+            & > div {
+                background: #000;
+                height: 200px;
+                width: 100%;
+                border-radius: $border-radius;
+                padding-bottom: 132%;
+                position: relative;
+                height: 0;
+                
+            }
+        }
+    }
+}

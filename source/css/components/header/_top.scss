@@ -1,0 +1,25 @@
+.header-top {
+  border-bottom: 1px solid $color-border-light;
+  padding: 4px 24px;
+  font: 13px $font-regular;
+  line-height: 24px;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  height: 43px;
+
+  &--link {
+    color: $color-link-gray;
+    &:hover {
+        color: $color-main;
+    }
+  }
+
+  &--nav {
+    li {
+      display: inline-block;
+      vertical-align: middle;
+      padding: 5px 0 5px 24px;
+    }
+  }
+}

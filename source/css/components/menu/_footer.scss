@@ -1,0 +1,48 @@
+.menu {
+    &-footer {
+        display: none;
+
+        @media (min-width: $grid-sm) {
+            justify-content: space-between;
+            display: flex;
+        }
+
+        .parent {
+            span {
+                margin-bottom: 10px;
+                display: block;
+                font-size: 16px;
+                font-weight: 600;
+            }
+
+            .item a {
+                color: $color-main;
+                line-height: 1.8;
+
+                &:hover {
+                    color: $color-link;
+                }
+            }
+        }
+
+        &-mobile {
+            border-top: 1px solid #e8ecf2;
+            margin-bottom: 30px;
+
+            @media (min-width: $grid-sm) {
+                display: none;
+            }
+
+            .item {
+                border-bottom: 1px solid #e8ecf2;
+                font-size: 15px;
+
+                a {
+                    color: $color-main;
+                    padding: .5rem 0;
+                    display: block;
+                }
+            }
+        }
+    }
+}

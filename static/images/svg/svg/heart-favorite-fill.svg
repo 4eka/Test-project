@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 26 26" enable-background="new 0 0 26 26" xml:space="preserve">
+<path fill="currentColor" stroke="#dadada" stroke-linejoin="round" d="M13,24.5c0,0,11.5-9.1,11.5-16.8C24.5,0,14.1-0.5,13,6.1
+	C11.9-0.5,1.5,0,1.5,8.3S13,24.5,13,24.5z"/>
+<path fill="currentColor" d="M13,25.2c-0.2,0-0.3,0-0.4-0.1C12.1,24.8,0.8,16.9,0.8,8.3c0-4.8,3.1-7.2,6.3-7.4c0.2,0,0.4,0,0.5,0
+	c1.9,0,4.2,0.8,5.4,3c1.3-2.2,3.7-3.1,5.6-3.1c0.2,0,0.4,0,0.6,0c3,0.2,6.1,2.5,6.1,6.9c0,8-11.3,17-11.8,17.4
+	C13.3,25.2,13.2,25.2,13,25.2z"/>
+</svg>

@@ -1,0 +1,42 @@
+.block {
+    &-subscribe {
+        margin-bottom: 30px;
+        max-width: 340px;
+
+        @media (min-width: $grid-sm) {
+            max-width: 420px;
+        }
+        
+        .title {
+            font-family: $font-medium;
+            font-size: 22px;
+        }
+
+        .desc {
+            color: $color-desc-gray;
+            margin-bottom: 10px;
+            font-size: 13px;
+
+            span {
+                display: block;
+
+                @media (min-width: $grid-sm) {
+                    display: inline;
+                }
+            }
+        }
+
+        .form {
+            display: flex;
+        }
+
+        .input-text {
+            border-radius: $border-radius 0 0 $border-radius;
+            border-right: none;
+        }
+
+        .button {
+            border-radius: 0 $border-radius $border-radius 0;
+        }
+    }
+}

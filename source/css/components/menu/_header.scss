@@ -1,0 +1,50 @@
+.header-nav {
+  @include media-breakpoint-up(sm) {
+    display: flex;
+  }
+
+  @include media-breakpoint-down(sm) {
+    display: none;
+  }
+
+  &--link {
+    white-space: nowrap;
+    color: #212b36;
+    font: 15px "yr_medium", Helvetica, Arial, sans-serif;
+    padding: 4px 14px;
+    line-height: 24px;
+
+    &:hover {
+      background-color: #e8ecf2;
+      border-radius: 4px;
+    }
+  }
+  &--item {
+    position: relative;
+
+   /* .sub-nav {
+      position: absolute;
+      left: 14px;
+      top: 50px;
+      z-index: 10;
+
+      &-inner {
+        border-radius: 6px;
+        border: 1px solid #e6e9ed;
+        background: #fff;
+
+        .sub-nav-col {
+          padding: 20px 30px 30px;
+
+          &-title {
+            color: #919eab;
+            font-size: 13px;
+          }
+        }
+      }
+    }*/
+  }
+}
+
+
+

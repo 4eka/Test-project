@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'yr_regular';
+    font-display: optional;
+    src: url('#{$font-path}385723_1_0.eot');
+    src: url('#{$font-path}385723_1_0.eot?#iefix') format('embedded-opentype'),
+         url('#{$font-path}385723_1_0.woff2') format('woff2'),
+         url('#{$font-path}385723_1_0.woff') format('woff'),
+         url('#{$font-path}385723_1_0.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'yr_medium';
+    font-display: optional;
+    src: url('#{$font-path}385723_2_0.eot');
+    src: url('#{$font-path}385723_2_0.eot?#iefix') format('embedded-opentype'),
+         url('#{$font-path}385723_2_0.woff2') format('woff2'),
+         url('#{$font-path}385723_2_0.woff') format('woff'),
+         url('#{$font-path}385723_2_0.ttf') format('truetype');
+}

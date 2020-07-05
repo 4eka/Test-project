@@ -1,0 +1,23 @@
+a {
+  color: $color-main;
+}
+
+.for-desktop {
+  @include media-breakpoint-up(lg) {
+    display: block;
+  }
+
+  @include media-breakpoint-down(md) {
+    display: none;
+  }
+}
+
+.for-mobile {
+  @include media-breakpoint-up(lg) {
+    display: none;
+  }
+
+  @include media-breakpoint-down(md) {
+    display: block;
+  }
+}

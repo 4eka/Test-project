@@ -1,0 +1,15 @@
+.header {
+    &-language {
+        padding-bottom: 5px;
+        padding-top: 4px;
+
+        a {
+            line-height: 15px;
+            display: flex;
+        }
+
+        img {
+            margin-right: 5px;
+        }
+    }
+}

@@ -1,0 +1,28 @@
+.menu {
+    &-links {
+        font-size: 13px;
+        display: none;
+        float: right;
+
+        @media (min-width: $grid-sm) {
+            display: block;
+        }
+
+        .link {
+            list-style: none;
+            float: left;
+
+            &:nth-child(n+2) {
+                margin-left: 24px;
+            }
+        }
+
+        .link-href {
+            color: $color-link-gray;
+
+            &:hover {
+                color: $color-main;
+            }
+        }
+    }
+}

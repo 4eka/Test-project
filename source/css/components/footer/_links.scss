@@ -1,0 +1,26 @@
+.footer {
+    &-links {
+        margin-bottom: 15px;
+
+        .item {
+            display: inline-block;
+            font-size: 13px;
+
+            a {
+                color: $color-main;
+
+                &:hover {
+                    color: $color-link;
+                }
+            }
+
+            &:nth-child(n+2) {
+                margin-left: 8px;
+
+                @media (min-width: $grid-sm) {
+                    margin-left: 20px;
+                }
+            }
+        }
+    }
+}

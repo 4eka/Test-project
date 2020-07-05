@@ -1,0 +1,26 @@
+.search {
+    &-header {
+        position: relative;
+
+        @media (min-width: $grid-sm) {
+            float: right;
+            width: 200px;
+        }
+
+        @media (min-width: $grid-md) {
+            width: 280px;
+        }
+
+        .input-text {
+            padding-left: 34px;
+        }
+
+        .icon-search {
+            position: absolute;
+            margin-top: -8px;
+            color: #999999;
+            left: 8px;
+            top: 50%;
+        }
+    }
+}

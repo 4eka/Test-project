@@ -1,0 +1,17 @@
+.header-logo {
+  display: block;
+  @include media-breakpoint-up(xl) {
+    img {
+      width: 244px;
+    }
+  }
+
+  @include media-breakpoint-down(lg) {
+    position: absolute;
+    left: 24px;
+    top: 15px;
+    img {
+      width: 110px;
+    }
+  }
+}

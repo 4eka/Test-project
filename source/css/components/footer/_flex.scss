@@ -1,0 +1,98 @@
+.footer {
+    .flex {
+        @media (min-width: $grid-xs) {
+            justify-content: space-between;
+            display: flex;
+        }
+
+        &-col {
+            &:first-child {
+                @media (min-width: $grid-xs) {
+                    max-width: 400px;
+                    width: 55%;
+                }
+
+                @media (min-width: $grid-md) {
+                    max-width: 420px;
+                }
+            }
+
+            &:last-child {
+                @media (min-width: $grid-xs) {
+                    max-width: 340px;
+                    margin-left: 50px;
+                    width: 45%;
+                }
+            }
+        }
+
+        &-reverse {
+            @media (min-width: $grid-sm) {
+                flex-direction: unset;
+            }
+        }
+
+        &-middle {
+            .flex-col {
+                &:first-child {
+                    @media (min-width: $grid-xs) {
+                        max-width: 340px;
+                        margin-left: 50px;
+                        width: 45%;
+                    }
+
+                    @media (min-width: $grid-sm) {
+                        max-width: 400px;
+                        margin-left: 0;
+                        width: 55%;
+                    }
+                }
+
+                &:last-child {
+                    @media (min-width: $grid-xs) {
+                        max-width: 400px;
+                        margin-left: 0;
+                        width: 55%;
+                    }
+
+                    @media (min-width: $grid-sm) {
+                        max-width: 340px;
+                        margin-left: 50px;
+                        width: 45%;
+                    }
+                }
+            }
+        }
+
+        &-bottom {
+            padding-top: 30px;
+            display: block;
+
+            @media (min-width: $grid-sm) {
+                display: flex;
+            }
+
+            .flex-col {
+                margin-left: 0;
+                max-width: 100%;
+                width: 100%;
+
+                &:first-child {
+                    @media (min-width: $grid-sm) {
+                        max-width: 400px;
+                        margin-left: 0;
+                        width: 55%;
+                    }
+                }
+
+                &:last-child {
+                    @media (min-width: $grid-sm) {
+                        max-width: 340px;
+                        margin-left: 50px;
+                        width: 45%;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,43 @@
+.button {
+    background: none;
+    border: none;
+
+    &-primary {
+        font-family: $font-medium;
+        border-radius: $border-radius;
+        line-height: 24px;
+        padding: 6px 20px;
+        font-size: 15px;
+        border-style: solid;
+        border-width: 1px;
+        cursor: pointer;
+        background-color: $color-red;
+        border-color: $color-red;
+        color: #fff;
+        transition: background-color .3s, color .3s;
+        &:hover {
+            background-color: $color-main-focus;
+        }
+    }
+
+    &-medium {
+        padding: 8px 24px;
+    }
+
+    &-big {
+        padding: 10px 32px;
+        font-size: 15px;
+    }
+
+    &-medium, &-big {
+        font-family: $font-regular;
+    }
+}
+
+.button-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    margin-top: 10px;
+}

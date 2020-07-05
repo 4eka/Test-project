@@ -1,0 +1,128 @@
+.search {
+    &-homepage {
+        background-image: url('../images/banner/homepage.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-bottom: 80px;
+        display: flex;
+        height: 400px;
+
+        @media (min-width: $grid-xs) {
+            height: 500px;
+        }
+
+        @media (min-width: $grid-md) {
+            margin-bottom: 100px;
+            height: 600px;
+        }
+
+        .container {
+            position: relative;
+        }
+
+        .content {
+            box-shadow: 10px 10px 15px -10px rgba(0,0,0,0.15);
+            background: #ffffff;
+            border-radius: 8px;
+            position: absolute;
+            padding: 30px;
+            bottom: -40px;
+            right: 8px;
+            left: 8px;
+
+            @media (min-width: $grid) {
+                max-width: 420px;
+            }
+
+            @media (min-width: $grid-xs) {
+                max-width: 460px;
+            }
+
+            @media (min-width: $grid-sm) {
+                max-width: 520px;
+                padding: 40px;
+            }
+        }
+
+        .title {
+            font-family: $font-medium;
+            margin-bottom: .5em;
+            line-height: 1.2em;
+            font-size: 26px;
+
+            @media (min-width: $grid-xs) {
+                letter-spacing: -1.2px;
+                font-size: 34px;
+                line-height: 1.1;
+
+            }
+
+            @media (min-width: $grid-sm) {
+                font-size: 46px;
+                line-height: 1;
+            }
+        }
+
+        .desc {
+            margin-bottom: 1em;
+            line-height: 1.4em;
+            font-size: 17px;
+
+            @media (min-width: $grid-xs) {
+                font-size: 20px;
+            }
+
+            @media (min-width: $grid-sm) {
+                font-size: 22px;
+            }
+        }
+
+        .form {
+            margin-bottom: 1em;
+
+            @media (min-width: $grid-xs) {
+                margin-bottom: 2em;
+            }
+        }
+
+        .actions {
+            flex-wrap: wrap;
+            display: flex;
+
+            @media (min-width: $grid-xs) {
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            .action {
+                min-width: 120px;
+
+                @media (min-width: $grid-xs) {
+                    min-width: auto;
+                }
+            }
+
+            .link {
+                border-bottom: 1px dashed;
+                font-size: 16px;
+            }
+        }
+
+        .input-text {
+            @media (min-width: $grid-sm) {
+                font-size: 18px;
+                padding: 12px 15px;
+            }
+        }
+
+        .button {
+            text-transform: uppercase;
+            margin-top: 1.2em;
+            font-size: 15px;
+
+            @media (min-width: $grid-xs) {
+                margin-top: 0;
+            }
+        }
+    }
+}

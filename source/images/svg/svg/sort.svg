@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 17">
+    <title>Icon sort</title>
+    <g fill="none" fill-rule="evenodd" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M4.2 15.69V1.315M1 12.25l3.159 3.44 3.159-3.44"/>
+        <g>
+            <path d="M11.2 1.31v14.375M8 4.75l3.159-3.44 3.159 3.44"/>
+        </g>
+    </g>
+</svg>

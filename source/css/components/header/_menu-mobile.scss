@@ -1,0 +1,14 @@
+.menu-mobile {
+
+  &--icon {
+    background: url(../images/svg/svg/menu.svg) no-repeat top center;
+    width: 24px;
+    height: 24px;
+    border: none;
+  }
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 9px;
+  right: 24px;
+}

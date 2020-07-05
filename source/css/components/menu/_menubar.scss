@@ -1,0 +1,20 @@
+.menu {
+    &-toggler {
+        background: none;
+        border: none;
+        float: right;
+
+        @media (min-width: $grid-sm) {
+            display: none;
+        }
+
+        .icon-menu {
+            height: 22px;
+            width: 23px;
+        }
+    }
+    
+    &-menubar {
+        //
+    }
+}

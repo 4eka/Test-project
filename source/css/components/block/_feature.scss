@@ -1,0 +1,36 @@
+.block {
+    &-feature {
+        margin-bottom: 60px;
+        text-align: center;
+        display: none;
+
+        @media (min-width: $grid-xs) {
+            display: block;
+        }
+
+        .img {
+            margin: 0 auto 30px;
+            height: 110px;
+        }
+
+        .title {
+            font-family: $font-medium;
+            margin-bottom: 10px;
+            font-size: 15px;
+
+            @media (min-width: $grid-sm) {
+                font-size: 21px;
+            }
+        }
+
+        .desc {
+            line-height: 20px;
+            font-size: 12px;
+
+            @media (min-width: $grid-sm) {
+                line-height: 28px;
+                font-size: 15px;
+            }
+        }
+    }
+}

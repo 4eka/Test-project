@@ -1,0 +1,24 @@
+.hero-banner {
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .container {
+    position: relative;
+    height: 100%;
+  }
+}
+
+.home-banner {
+  background-image: url("../images/banner/homepage.jpg");
+  height: 600px;
+  background-position: 50% 0;
+}
+.category-banner {
+  background-image: url("../images/source/bg-about@2x.jpg");
+  height: 410px;
+  background-position: 50% 50%;
+
+  @include media-breakpoint-down(lg) {
+    background-image: url("../images/source/bg-about.jpg");
+  }
+}

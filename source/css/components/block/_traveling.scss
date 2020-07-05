@@ -1,0 +1,17 @@
+
+
+.block {
+    &-traveling {
+        margin-bottom: 80px;
+
+        .item {
+            &:nth-child(n+2) {
+                margin-top: 20px;
+
+                @media (min-width: $grid-xxs) {
+                    margin-top: 0;
+                }
+            }
+        }
+    }
+}
